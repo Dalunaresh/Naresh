@@ -1,0 +1,176 @@
+/* common */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   body{
+    margin: 0;
+    /*padding-top: 45px;*/
+   }
+   hr{
+    margin-top: 0;
+    margin-bottom: 5px;
+   }
+   h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
+    margin-bottom: 10px;
+   }
+   address{
+    font-style: normal;
+   }
+   .text-center{
+    text-align: center;
+   }
+   /* navigation bar */
+   .navbar{
+    /*position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;*/
+    position: relative;
+    margin: auto;
+    background-color: rgb(120, 5, 150);
+   }
+   .navbar-nav{
+    list-style-type: none;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   }
+   .nav-item{
+    display: inline-block;
+    margin: 0px 10px;
+    text-align: center;
+    padding: 15px;
+   }
+   .nav-link{
+    text-decoration: none;
+    color: white;
+   }
+   .active{
+    border-bottom: 3px solid white;
+   }
+   /* grid structure */
+   .container{
+    width: 90%;
+    margin: auto;
+    padding: 0px 15px;
+   }
+   .row{
+    padding: 15px 0px;
+    margin: auto; 
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+   }
+   .row-content{
+    padding: 30px 0px;
+    justify-content: space-evenly;
+   }
+   .col{
+    display: inline-block;
+    padding: 0px 15px;
+   }
+   /* header */
+   .header{
+    width: 95%;
+    background-image:url(/imgs/sreccampus.jpg);
+   
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    color: rgb(59, 17, 247);
+    padding: 200px 0px;
+    font-size: 50px;
+   }
+   /* footer */
+   .footer{
+    background-color: #002e3b;
+    padding-top: 30px;
+    color: white;
+    line-height: 30px;
+   }
+   .footer .row{
+    justify-content: space-evenly;
+    align-items: flex-start; 
+   }
+   /* courses offered -> index.html */
+   .courses p{
+    font-size: 20px;
+    margin: 5px 0px;
+    font-weight: bold;
+   }
+   .courses .col{
+    color: rgb(55, 14, 240);
+    background-color: rgb(233, 233, 233);
+    border-radius: 15px;
+   }
+   .courses .col:hover{
+    box-shadow: 15px 15px 10px rgb(58, 14, 240);
+   }
+   /* info -> index.html */
+   .info span,.courses span{
+    padding: 30px;
+   }
+   .info b{
+    font-size: 30px;
+   }
+   .info p{
+    font-size: 15px;
+    font-weight: bold;
+   }
+   /* departments -> departments.html */
+   .departments p{
+    margin-top: 0px;
+    text-align: justify;
+    font-family: cursive;
+   }
+   .departments img{
+    border:5px solid goldenrod;
+    border-end-end-radius: 50%;
+   }
+   .departments h1,.departments h2,.departments h3,.departments h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   .departments .row{
+    background-color: rgb(8, 160, 248);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0px;
+    justify-content: center;
+   }
+   /* form -> contactus.html*/
+   label{
+    margin-left: 50px;
+    width: 150px;
+    padding: 5px;
+    font-size: 16px;
+   }
+   input,textarea{
+    width: 500px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-size: 16px;
+   }
+   .queryForm .row{
+    align-items: flex-start;
+   }
+   textarea{
+    resize: none;
+   }
+   #btn{
+    padding: 15px 25px;
+    margin-left: 210px;
+    color: white;
+    background-color: rgb(70, 70, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+   #btn:hover{
+    background-color: rgb(0, 0, 220);
+   }
+   #btn:active{
+    background-color: rgb(0, 0, 150);
+   }
